@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# team: Armin, Claudia, Baltasar
+# team: Armin, Claudia, Baltasar, Noone
 # expert of excercise block1: Claudia
 
 import random
