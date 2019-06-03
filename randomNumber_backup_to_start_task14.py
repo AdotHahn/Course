@@ -50,3 +50,6 @@ if __name__ == "__main__":
     sys.stdout.flush()
     color = get_color_by_dice_roll(roll)
     write_log_file(outputfilename, color)
+    plt.bar(range(6), rolls)
+    plt.show()
+    input("enter to close")
