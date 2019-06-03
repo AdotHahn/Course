@@ -7,6 +7,7 @@
 import random
 import time
 import sys
+from matplotlib import pyplot as plt
 
 def get_random_number_with_randint(start, end):
     num = random.randint(start, end)
