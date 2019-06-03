@@ -39,6 +39,7 @@ if __name__ == "__main__":
     print(rolls_new)
     sys.stdout.flush()
     color = get_color_by_dice_roll(roll)
+    print("Last colour would be {}".format(color))
     write_log_file(outputfilename, color)
     plt.barh(range(6), rolls_new)
     plt.show()
