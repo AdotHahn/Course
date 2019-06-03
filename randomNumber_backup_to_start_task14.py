@@ -3,6 +3,8 @@
 #
 # team: teammember 1, teammember 2, teammember 3
 # expert of exercise block 1: teammember 1
+# temptest
+
 
 import random
 import time
@@ -27,7 +29,7 @@ def get_color_by_dice_roll(spots):
 
 def get_color_by_dice_naive(spots):
     colours = ['blue', 'green', 'red', 'yellow', 'purple', 'orange']
-    return colours[spots]
+    return colours[spots-1]
 
 
 if __name__ == "__main__":
