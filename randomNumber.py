@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # team: Armin, Claudia, Baltasar
+# expert of excercise block1: Claudia
 
 import random
 import time
