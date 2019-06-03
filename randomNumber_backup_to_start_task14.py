@@ -26,19 +26,8 @@ def get_color_by_dice_roll(spots):
 
 
 def get_color_by_dice_naive(spots):
-    if spots == 1:
-        color = 'blue'
-    elif spots == 2:
-        color = 'green'
-    elif spots == 3:
-        color = 'red'
-    elif spots == 4:
-        color = 'yellow'
-    elif spots == 5:
-        color = 'purple'
-    else: # spots == 6:
-        color = 'orange'
-    return color
+    colours = ['blue', 'green', 'red', 'yellow', 'purple', 'orange']
+    return colours[spots]
 
 
 if __name__ == "__main__":
