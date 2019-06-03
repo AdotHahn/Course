@@ -5,6 +5,7 @@
 # expert of exercise block 1: teammember 1
 # temptest
 
+# what is happening to me?
 
 import random
 import time
